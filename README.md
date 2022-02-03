@@ -28,14 +28,14 @@ export const App = () => {
   const onOpenModal = () => setOpenModal(true);
   const onCloseModal = () => setOpenModal(false);
 
-  const handleClickOpen = (e) => {
+  const handleClickOpen = () => {
     onOpenModal();
   };
   return (
       <>
-        <Button onClick={handleClickOpen}>
+        <button type="button" onClick={handleClickOpen}>
           Open alert dialog
-        </Button>
+        </button>
         
         <AlertDialog
             title="Modal Dialog Title"
