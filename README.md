@@ -28,11 +28,15 @@ export const App = () => {
   const onOpenModal = () => setOpenModal(true);
   const onCloseModal = () => setOpenModal(false);
 
-  const handleDoSomething = (e) => {
+  const handleClickOpen = (e) => {
     onOpenModal();
   };
   return (
       <>
+        <Button onClick={handleClickOpen}>
+          Open alert dialog
+        </Button>
+        
         <AlertDialog
             title="Modal Dialog Title"
             description="Praesent sapien massa, convallis a pellentesque nec."
