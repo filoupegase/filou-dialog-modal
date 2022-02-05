@@ -34,7 +34,7 @@ export const App = () => {
   return (
       <>
         <button type="button" onClick={handleClickOpen}>
-          Open alert dialog
+          Open to open the dialog
         </button>
         
         <AlertDialog
@@ -52,4 +52,4 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 
 Yes, it's really all you need to get started as you can see in this live and interactive demo:
 
-[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/)
+[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/demo-filou-dialog-modal-wltpd)
